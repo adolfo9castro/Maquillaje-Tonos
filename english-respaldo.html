@@ -1,0 +1,862 @@
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Maquillaje y tonos</title>
+      <link href="style/style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style/gray.min.css">
+      
+      <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery.gray.min.js"></script>
+      <script type="text/javascript" src="js/functions.js"></script>
+      <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+      <script type="text/javascript">
+         $(document).ready(function() {
+            $('#fullpage').fullpage({               
+               anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', 'lastPage'],                    
+            });
+
+         });
+      </script>
+   </head>
+   <body>
+      <section id="contenedor">
+      <div id="fullpage">
+      <div class="section " id="section0">     
+         <section id="inicio">
+            <img src="img/logo.png" />
+            <div id="select_idioma">
+               <a href="index.html">SP</a> / <a style="color:#7f7f7f; cursor:default" href="javascript: void(0)">EN</a>
+            </div>
+            <div class="btn_inicio">
+               <a href="#secondPage"><i class="fa fa-angle-down"></i></a>
+            </div>               
+         </section>
+      </div>
+
+      <div class="section " id="section1">
+         <section id="quienes_somos">
+            <div class="columna_img">
+               <img src="img/quienes_somos.png" />                       
+            </div>
+            <div class="columna_qs">
+               <a href="http://www.maquillajetonos.com" target="_blank">www.maquillajetonos.com</a>
+               <div class="menu">
+                  <span>Menú<i class="fa fa-angle-down"></i></span>
+                  <ul>
+                     <!--<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>-->
+                     <!--<li data-menuanchor="secondPage"><a href="#secondPage">Quíenes somos</a></li>-->
+                     <li data-menuanchor="3rdPage"><a href="#3rdPage">Historia</a></li>
+                     <li data-menuanchor="4thpage"><a href="#4thpage">Productos</a></li>
+                     <li data-menuanchor="5thpage"><a href="#5thpage">Donde estamos</a></li>
+                     <li data-menuanchor="6thpage"><a href="#6thpage">Certificaciones</a></li>
+                     <li data-menuanchor="lastPage"><a href="#lastPage">Contacto</a></li>
+                  </ul>
+               </div> 
+               <div class="content_qs">
+                  <h1>About<br /><span>Us</span></h1>
+                  <img src="img/quienes_somos_2.png" /> 
+               </div>               
+            </div>
+            <div class="quienes_somosText">
+               <p>TONOS REVOLUTION MAKEUP  is a Colombian company with 31 years of experience in the cosmetic industry  dedicated to selling  professional makeup and skin care products, made with natural  and mineral ingredients.</p>
+               <p>Our creative vision allows us to go beyond the borders bringing together science and art, to inspire breakthroughs in the beauty sector. We focus on discovering the most precious and beneficial  ingredients in nature; All to give your skin the care it deserves.</p>
+            </div>
+         </section>
+      </div>
+      
+      <div class="section " id="section2">
+                  <div class="menu">
+                     <span>Menú<i class="fa fa-angle-down"></i></span>
+                     <ul>
+                        <!--<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>-->
+                        <li data-menuanchor="secondPage"><a href="#secondPage">Quíenes somos</a></li>
+                        <!--<li data-menuanchor="3rdPage"><a href="#3rdPage">Historia</a></li>-->
+                        <li data-menuanchor="4thpage"><a href="#4thpage">Productos</a></li>
+                        <li data-menuanchor="5thpage"><a href="#5thpage">Donde estamos</a></li>
+                        <li data-menuanchor="6thpage"><a href="#6thpage">Certificaciones</a></li>
+                        <li data-menuanchor="lastPage"><a href="#lastPage">Contacto</a></li>
+                     </ul>
+                  </div>
+         <section id="historia">
+            <a href="http://www.maquillajetonos.com" target="_blank">www.maquillajetonos.com</a>               
+               <div class="content_rh">                  
+                  <h1>Reseña<br /><span>Historica</span></h1>
+                  <img src="img/quienes_somos_2.png" /> 
+                  <p>TONOS REVOLUTION MAKEUP es una empresa Colombiana con 31 años de experiencia en el sector cosmético, dedicada a la venta de Maquillaje profesional y productos para el cuidado facial, elaborados a base de componentes naturales y minerales.</p>
+                  <p>Nuestra visión creativa nos permite ir más allá de las fronteras reuniendo a la ciencia y el arte, para inspirar los avances del sector de la belleza. Nos enfocamos en descubrir los ingredientes más preciados y beneficiosos de la naturaleza; todo para darle a tu piel el cuidado que merece.</p>
+               </div>
+         </section>
+      </div>
+      <div class="section " id="section3">
+         <section id="productos">
+
+            <!--Modal Galería_luxury-->
+            <div id="linea_luxury_modal_galeria">
+               <div class="fila_1">
+                  
+                  <div class="header">
+                     <nav>
+                        <ul>
+                           <li id="open_sport_close_all">Línea <span>Sport</span></li>
+                           <li id="open_piel_close_all" class="more_width">Línea <span>Cuidado de la piel</span></li>
+                        </ul>
+                     </nav>
+                     <h1>Línea<br /><span>Luxury</span></h1>
+                     <div class="cerrar_galeria">
+                        <span id="btn_cerrar" class="cerrar">Cerrar</span>
+                        <span id="cerrar_solo_galeria" class="galeria">Cerrar Galería<span></span></span>      
+                     </div>
+                  </div>   
+
+                  <div id="slide">                     
+                     <div id="intro" class="intro">
+                        <div id="back" class="back"></div>
+                        <div id="forward" class="forward"></div>
+                        
+                        <div id="slide_hide" class="activo slide_hide1">
+                           <img src="img/luxury/base-fluida.png" alt="simple" />
+                           <h1>BASE FLUIDA<br /><span></span></h1>
+                           <p>Base de maquillaje fluida con componentes de origen mineral, enriquecida con vitaminas A, E y
+                              filtro solar que hidratan, suavizan y retrasan el proceso de envejecimiento prematuro en la piel.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide2"> 
+                           <img src="img/luxury/corrector-fluido-y-cremoso.png" alt="simple" />
+                           <h1>CORRECTOR FLUIDO & CREMOSO<br /><span></span></h1>
+                           <p>Diseñado para el cubrimiento total de imper fecciones, brinda a la piel beneficios gracias a su alto contenido
+                              de vitaminas E y C, humectantes naturales y antioxidantes que otorgan un efecto anti edad.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide3">
+                           <img src="img/luxury/LU-base-de-maquillaje-compacta-pankey.png" alt="simple" />
+                           <h1>BASE DE MAQUILLAJE COMPACTA PANKEY<br /><span></span></h1>
+                           <p>Base compacta con componentes de origen mineral, alto cubrimiento de imperfecciones, gran durabilidad y
+                              terminación mate que le brinda a la piel un acabado suave dejando que los poros respiren libremente.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide4">
+                           <img src="img/luxury/LU-base-de-maquillaje-en-crema-pan-stick.png" alt="simple" />
+                           <h1>BASE DE MAQUILLAJE EN CREMA PAN STICK<br /><span></span></h1>
+                           <p>Base cremosa de fácil aplicación, máximo cubrimiento y gran durabilidad, con acabado mate natural, disimula las
+                              imperfecciones de la piel y permite que los poros respiren libremente.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide5">
+                           <img src="img/luxury/soft-pressed.png" alt="simple" />
+                           <h1>POLVO COMPACTO<br /><span></span></h1>
+                           <p>Maquillaje compacto con componentes de origen mineral, que gracias a sus vitaminas A y E humectan, revitalizan y
+                              nutren la piel, contiene filtro solar. Maquillaje de alto cubrimiento y excelente durabilidad hasta por 12 horas</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide6">
+                           <img src="img/luxury/polvo-facila-control-de-imperfecciones.png" alt="simple" />
+                           <h1>POLVO FACIAL<br /><span>control de imperfecciones</span></h1>
+                           <p>Maquillaje especializado en pieles con imperfecciones cutáneas, como los barros y las espinillas, ayuda a disminuir
+                              las imperfecciones con lo cual la piel del rostro lucirá más lisa y con un color uniforme.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide7">
+                           <img src="img/luxury/Olvo-suelto-facial-de-arroz.png" alt="simple" />
+                           <h1>POLVO SUELTO <br /><span>facial de arroz</span></h1>
+                           <p>Componentes de origen mineral, polvo traslucido ligero y ultra fino con efecto aterciopelado, por su alto contenido de
+                              arroz evita el brillo a pieles grasas, aumenta la protección en pieles sensibles.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide8">
+                           <img src="img/luxury/polvo-arroz-suelto-perlado.png" alt="simple" />
+                           <h1>POLVO FACIAL Y CORPORAL DE ARROZ<br /><span>suelto perlado</span></h1>
+                           <p>Finísimos polvos micropulverizados con componente de origen mineral, por su alto contenido de arroz controla la
+                              grasa del rostro y ayuda a aumentar la protección en pieles sensibles.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide9">
+                           <img src="img/luxury/rubor-duo.png" alt="simple" />
+                           <h1>RUBOR DÚO<br /><span></span></h1>
+                           <p>Rubor de fina textura micropulverizada con componentes de origen mineral y alta concentración de pigmentos que
+                              aportan excelente fijación, 100 % fidelidad de color y larga duración.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide10">
+                           <img src="img/luxury/sombra-suelta-pigmento-mineral.png" alt="simple" />
+                           <h1>SOMBRA SUELTA<br /><span>pigmento mineral</span></h1>
+                           <p>Sombra suelta con componentes de origen mineral, hidratantes y emolientes que le brindan una protección especial al
+                              parpado, con alta concentración de pigmentos y perlas de fijación perfecta.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide11">
+                           <img src="img/luxury/soimbra-compacta.png" alt="simple" />
+                           <h1>SOMBRA COMPACTA<br /><span></span></h1>
+                           <p>Sombra compacta con componentes de origen mineral, de textura micropulverizada que facilita su aplicación
+                              logrando un maquillaje fino y duradero. Por su alta concentración de pigmentos es de óptima fijación.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide12">
+                           <img src="img/luxury/sombra-para-ojos-en-crema.png" alt="simple" />
+                           <h1>SOMBRA PARA OJOS<br /><span>en crema</span></h1>
+                           <p>Su fórmula es a base de agua, vitaminas y minerales para proteger la piel, rica en perlas y colorantes, permite una
+                              duración prolongada por12 horas, no se cuartea ni se desvanece.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide13">
+                           <img src="img/luxury/maquillaje-delineador-de-cejas.png" alt="simple" />
+                           <h1>MAQUILLAJE DELINEADOR<br /><span>de cejas</span></h1>
+                           <p>Delineador de cejas cremoso de suave textura, fácil aplicación, máxima fijación y gran durabilidad, con componentes
+                              de origen mineral y ceras de origen natural.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide14">
+                           <img src="img/luxury/delineador-liquido.png" alt="simple" />
+                           <h1>DELINEADOR LIQUIDO<br /><span></span></h1>
+                           <p>Dotado de un exclusivo sistema dosificador que evita la filtración o secado del contenido. El diseño de su
+                              aplicador (que no se dispersa), permite un delineado fácil y preciso.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide15">
+                           <img src="img/luxury/plumon-delineador.png" alt="simple" />
+                           <h1>PLUMÓN DELINEADOR<br /><span></span></h1>
+                           <p>Delineador líquido extra delgado y flexible, de rápido secado y larga duración, logra una aplicación de línea
+                              perfecta sobre los parpados, posee una punta suave y flexible que facilita un trazo uniforme y fino.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide16">
+                           <img src="img/luxury/mascara-alargadora-de-pestanas.png" alt="simple" />
+                           <h1>MÁSCARA DE PESTAÑAS<br /><span>alargadora</span></h1>
+                           <p>Enriquecida con vitamina E que fortalece e hidrata la pestaña, sus fibras sintéticas alargan y dan un
+                              alto brillo, es de máximo cubrimiento, secado rápido, permanencia y fijación.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide17">
+                           <img src="img/luxury/extreme-volumen.png" alt="simple" />
+                           <h1>EXTREME VOLUMEN<br /><span></span></h1>
+                           <p>Pestañas increíblemente largas con extracto de Bamboo que es un agente regenerador, su fórmula de ingredientes acondicionadores
+                               producen mayor volumen y cubrimiento.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide18">
+                           <img src="img/luxury/lapiz-profesional-para-ojos-y-cejas.png" alt="simple" />
+                           <h1>LÁPIZ PROFESIONAL PARA<br /><span>ojos y cejas</span></h1>
+                           <p>Lápiz delineador especial para ojos y cejas, contiene vitamina E que ayuda a conservar la humedad en el parpado,
+                              su textura es suave y sedosa con máxima intensidad de color.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide19">
+                           <img src="img/luxury/lapiz-a-prueba-de-agua.png" alt="simple" />
+                           <h1>LÁPIZ A PRUEBA<br /><span>de agua</span></h1>
+                           <p>Formula especial a base de ceras naturales y vitamina E que ayudan a conservar la humedad del parpado, contiene
+                              solventes volátiles que lo hacen de larga duración y a prueba de agua.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide20">
+                           <img src="img/luxury/lapiz-labios-y-ojos-textura-silk.png" alt="simple" />
+                           <h1>LÁPIZ DE LABIOS Y OJOS<br /><span>textura silk</span></h1>
+                           <p>Lápiz delineador cremoso y de máxima intensidad de color, con vitamina E que ayuda a conservar la humedad de la
+                              piel, excelente cubrimiento, larga duración.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide21">
+                           <img src="img/luxury/lapiz-delineador-para-ojos.png" alt="simple" />
+                           <h1>LÁPIZ DELINEADOR PROFESIONAL<br /><span>para labios</span></h1>
+                           <p>Lápiz delineador de labios, contiene vitamina E que ayuda a conservar la humedad al labio, su textura es suave y
+                              sedosa con máxima intensidad de color, permite hacer trazos precisos y definidos</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide22">
+                           <img src="img/luxury/labial-larga-duracion.png" alt="simple" />
+                           <h1>LABIAL LARGA DURACIÓN<br /><span></span></h1>
+                           <p>A base de ceras naturales, vitamina E y filtro solar, que humecta y protege los labios, gracias a su fórmula con alta
+                              concentración en pigmentos permite una aplicación por mas tiempo y mayor cubrimiento.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide23">
+                           <img src="img/luxury/brillo-labial.png" alt="simple" />
+                           <h1>BRILLO LABIAL<br /><span></span></h1>
+                           <p>Brillo labial de alta duración, con pigmentos de origen mineral y ceras naturales, que dan brillo, volumen excepcional y
+                              una textura natural a los labios, además da un cubrimiento perfecto que facilita su aplicación.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide24">
+                           <img src="img/luxury/paleta-bases-y-polvos.png" alt="simple" />
+                           <h1>PALETA BASES Y POLVOS<br /><span></span></h1>
+                           <p>Con componentes de origen mineral, humectantes y emolientes que hidratan la piel. También contiene filtro solar que
+                              retrasa el proceso de envejecimiento prematuro en la piel, maquillaje de gran durabilidad y cubrimiento.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide_hide25">
+                           <img src="img/luxury/paleta-sombras.png" alt="simple" />
+                           <h1>PALETA SOMBRAS<br /><span></span></h1>
+                           <p>Sombras compactas con componentes de origen mineral ultra suaves, contienen hidratantes emolientes y una amplia
+                              gama de colores mates, perlados y metálicos que permiten experimentar diversos estilos de maquillaje.</p>
+                        </div>
+
+                      
+                     </div>
+                  </div>
+                  
+                 
+
+
+
+
+
+
+
+               </div>
+               <div class="fila_2">                  
+                  <img src="img/certificado_natural_2.png" />
+                  <h1>Productos a base de <span>ingredientes naturales</span></h1>
+                  <a href="http://www.maquillajetonos.com" target="_blank">Ampliar información sobre línea</a>
+               </div>
+               <img src="img/linea_luxuri.png">
+            </div>
+            <!--FIN Modal Galería-->
+
+            <!--Modal-->  
+            <div id="linea_luxury_modal">
+               <div class="fila_1">
+                  <div class="header">
+                     <nav>
+                        <ul>
+                           <li id="open_sport_close_all">Línea <span>Sport</span></li>
+                           <li id="open_piel_close_all" class="more_width">Línea <span>Cuidado de la piel</span></li>
+                        </ul>
+                     </nav>
+                     <h1>Línea<br /><span>Luxury</span></h1>
+                     <div class="cerrar_galeria">
+                        <span id="btn_cerrar_2" class="cerrar">Cerrar</span>
+                        <span id="btn_galeriaopen" class="galeria">Galería<span></span></span>      
+                     </div>
+                  </div>               
+                  <p>Nustra Línea Luxury está enfocada en los profesionales del maquillaje, que buscan una marca aliada para resaltar su trabajo con las mejores herramientas de excelente calidad, modernas y soficticadas para cada tendencia.</p>
+               </div>
+               <div class="fila_2">
+                  <img src="img/certificado_natural.png" />
+                  <h1>Productos a base de <span>ingredientes naturales</span></h1>
+                  <a href="http://www.maquillajetonos.com" target="_blank">Ampliar información sobre línea</a>
+               </div>
+               <img src="img/linea_luxuri.png">
+            </div> 
+            <!--Fin del modal-->
+
+
+
+
+
+
+            <!--Modal Galería_Sport-->
+            <div id="linea_luxury_modal_galeria" class="open_sport_galeria">
+               <div class="fila_1">
+                  
+                  <div class="header">
+                     <nav>
+                        <ul>
+                           <li id="open_luxury_close_all">Línea <span>Luxury</span></li>
+                           <li id="open_piel_close_all" class="more_width">Línea <span>Cuidado de la piel</span></li>
+                        </ul>
+                     </nav>
+                     <h1>Línea<br /><span>Luxury</span></h1>
+                     <div class="cerrar_galeria">
+                        <span id="btn_cerrar" class="cerrar">Cerrar</span>
+                        <span id="cerrar_solo_galeria" class="galeria">Cerrar Galería<span></span></span>      
+                     </div>
+                  </div>   
+
+                  <div id="slide">                     
+                     <div id="intro" class="intro">
+                        <div id="back" class="back2"></div>
+                        <div id="forward" class="forward2"></div>
+                        
+                        <div id="slide_hide" class="activo slide2_hide1">
+                           <img src="img/sport/base-maquillaje-comapcta-pankey.png" alt="simple" />
+                           <h1>BASE DE MAQUILLAJE COMPACTA<br /><span>pankey</span></h1>
+                           <p>Base compacta de gran durabilidad, brinda un acabado mate natural, contiene filtros solares UVA / UVB y vitamina E
+                     |1      que protegen, revitalizan y cuidan la piel, su excelente cubrimiento disimula imperfecciones de la piel.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide2">
+                           <img src="img/sport/base-de-maquillaje-en-crema-pan-stick.png" alt="simple" />
+                           <h1>BASE DE MAQUILLAJE EN CREMA<br /><span>pan stick</span></h1>
+                           <p>Base con textura cremosa de máximo cubrimiento, con acabado mate natural, contiene filtros solares UVA / UVB y
+                              vitamina E que protegen, revitalizan y nutren la piel, maquillaje de gran durabilidad y resistente al agua</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide3">
+                           <img src="img/sport/delineador-de-cejas-cremoso.png" alt="simple" />
+                           <h1>DELINEADOR DE CEJAS<br /><span>cremoso</span></h1>
+                           <p>Delineador de cejas cremoso de suave textura, fácil aplicación, máxima fijación y gran durabilidad, con
+                              ceras de origen natural y emolientes que cuidan e hidratan las cejas sin maltratarlas.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide4">
+                           <img src="img/sport/corrector-en-barra-cremoso.png" alt="simple" />
+                           <h1>CORRECTOR EN BARRA <br /><span>cremoso</span></h1>
+                           <p>Corrector cremoso a base de ceras naturales y vitamina E que previenen la resequedad y le brindan suavidad y elasticidad
+                            a la piel.</p>
+                        </div> 
+
+                        <div id="slide_hide" class="slide2_hide5">
+                           <img src="img/sport/polvo-compacto.png" alt="simple" />
+                           <h1>POLVO COMPACTO<br /><span></span></h1>
+                           <p>Maquillaje compacto de alto cubrimiento y adherencia, rico en activos naturales como el arroz que deja respirar los
+                              poros de la piel del rostro, sin generar ningún tipo de obstrucción ayudando a absorber la grasa de la piel</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide6">
+                           <img src="img/sport/rubor-compacto.png" alt="simple" />
+                           <h1>RUBOR COMPACTO<br /><span></span></h1>
+                           <p>Rubor compacto con alta concentración de pigmentos, textura sedosa y notable cubrimiento para dar luminosidad y
+                              color a las mejillas, dando un efecto delicado y natural, de larga duración y excelente fijación</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide7">
+                           <img src="img/sport/mascara-de-pestanas-alargadora.png" alt="simple" />
+                           <h1>MÁSCARA DE PESTAÑAS<br /><span>alargadora</span></h1>
+                           <p>Fórmula enriquecida con vitamina E, que fortalece e hidrata las pestañas dándole un efecto alargador y una
+                              apariencia definida sin grumos ni englobamientos.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide8">
+                           <img src="img/sport/paleta-polvo-compacto.png" alt="simple" />
+                           <h1>PALETA POLVO<br /><span>compacto</span></h1>
+                           <p>Especial para maquilladores profesionales, contiene 10 tonos de polvos compactos, elaborados con fino
+                              polvo de arroz, vitamina E, y filtros UVA / UVB. Especial para piel normal con tendencia a piel grasa..</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide9">
+                           <img src="img/sport/paleta-delineadoraaa.png" alt="simple" />
+                           <h1>PALETA DELINEADOR DE CEJAS<br /><span>rubor y correctores</span></h1>
+                           <p>Especial para maquilladores profesionales, contiene 6 tonos de rubor, 4 tonos de corrector cremoso y 2 tonos de
+                              maquillaje delineador de cejas en crema. Con hidratantes y emolientes, de excelente cubrimiento y duración.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide2_hide10">
+                           <img src="img/sport/panstick.png" alt="simple" />
+                           <h1>PALETA BASES PANKEY<br /><span>y pan stick</span></h1>
+                           <p>Especial para maquilladores profesionales por su gran durabilidad y cobertura, contiene 5 tonos de pankey y 5 tonos
+                              de pan stick. con vitamina E que protege y revitaliza la piel.</p>
+                        </div>
+
+
+
+
+
+                     </div>
+                  </div>
+                  
+                  
+
+               </div>
+               <div class="fila_2">                  
+                  <img src="img/certificado_natural_2.png" />
+                  <h1>Productos a base de <span>ingredientes naturales</span></h1>
+                  <a href="http://www.maquillajetonos.com" target="_blank">Ampliar información sobre línea</a>
+               </div>
+               <img src="img/linea_luxuri.png">
+            </div>
+            <!--FIN Modal Galería-->
+
+            <!--Modal-->  
+            <div id="linea_luxury_modal" class="open_sport">
+               <div class="fila_1">
+                  <div class="header">
+                     <nav>
+                        <ul>
+
+                           <li id="open_luxury_close_all">Línea <span>Luxury</span></li>
+                           <li id="open_piel_close_all" class="more_width">Línea <span>Cuidado de la piel</span></li>
+                        </ul>
+                     </nav>
+                     <h1>Línea<br /><span>Sport</span></h1>
+                     <div class="cerrar_galeria">
+                        <span id="btn_cerrar_2" class="cerrar">Cerrar</span>
+                        <span id="btn_galeriaopen" class="galeria">Galería<span></span></span>      
+                     </div>
+                  </div>               
+                  <p>La Línea de Maquillaje Sport está enfocada al público en general que busca calidad, cubrimiento y salud para la piel.</p>
+               </div>
+               <div class="fila_2">
+                  <img src="img/certificado_natural.png" />
+                  <h1>Productos a base de <span>ingredientes naturales</span></h1>
+                  <a href="http://www.maquillajetonos.com" target="_blank">Ampliar información sobre línea</a>
+               </div>
+               <img src="img/linea_luxuri.png">
+            </div> 
+            <!--Fin del modal-->
+
+
+
+
+            <!--Modal Galería_luxury-->
+            <div id="linea_luxury_modal_galeria" class="open_piel_galeria">
+               <div class="fila_1">
+                  
+                  <div class="header">
+                     <nav>
+                        <ul>
+                           <li id="open_luxury_close_all">Línea <span>Luxury</span></li>
+                           <li id="open_sport_close_all">Línea <span>Sport</span></li>
+                        </ul>
+                     </nav>
+                     <h1>Línea<br /><span>Cuidado de la piel</span></h1>
+                     <div class="cerrar_galeria">
+                        <span id="btn_cerrar" class="cerrar">Cerrar</span>
+                        <span id="cerrar_solo_galeria" class="galeria">Cerrar Galería<span></span></span>      
+                     </div>
+                  </div>   
+
+                  <div id="slide">                     
+                     <div id="intro" class="intro">
+                        <div id="back" class="back3"></div>
+                        <div id="forward" class="forward3"></div>
+                        
+                        <div id="slide_hide" class="activo slide3_hide1">
+                           <img src="img/piel/crema-limpiadora-hidratante.png" alt="simple" />
+                           <h1>CREMA LIMPIADORA<br /><span>hidratante</span></h1>
+                           <p>Crema hidratante con filtro solar y con activos que reparan la reserva natural en la piel, contiene glicerina y aloe vera que mejoran y regulan la regeneración de las células, penetra en tres capas de la piel: epidermis, dermis y la hipodermis.</p>
+                        </div>
+
+                        <div id="slide_hide" class="slide3_hide2">
+                           <img src="img/piel/desmaquillador-bifasico.png" alt="simple" />
+                           <h1>DESMAQUILLADOR<br /><span>bifásico</span></h1>
+                           <p>Esta fórmula está compuesta por dos fases, una acuosa y una oleosa, que al mezclarlas consiguen que podamos retirar el maquillaje de ojos y rostro con total facilidad.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide3">
+                           <img src="img/piel/desmaquillador-bifasico.png" alt="simple" />
+                           <h1>TÓNICO REFRESCANTE Y<br /><span>tonificante</span></h1>
+                           <p>Fórmula con extracto de menta, calmante y tonificante. Posee efectos refrescantes
+                              por su gran contenido de aceites esenciales, alivia y da vida a pieles maltratadas.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide4">
+                           <img src="img/piel/crema-bronceadora-manos-y-cuerpo.png" alt="simple" />
+                           <h1>CREMA BRONCEADORA MANOS<br /><span>y cuerpo</span></h1>
+                           <p>Fórmula con efecto bronceador y glitter que hidrata y humecta eficazmente aumentando la retención de agua en la
+                              piel, contiene filtro solar y aloe vera, mejora y regula la regeneración de las células.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide5">
+                           <img src="img/piel/bloqueador-solar.png" alt="simple" />
+                           <h1>BLOQUEADOR <br /><span>solar</span></h1>
+                           <p>Fórmula que te protege contra quemaduras solares y el envejecimiento prematuro de la piel, no grasoso, con filtros
+                              UVA / UVB , vitamina E y aceite de canola. Apto para todo tipo de piel.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide6">
+                           <img src="img/piel/locion-capilar.png" alt="simple" />
+                           <h1>LOCIÓN LINAZA Y <br /><span>silicona</span></h1>
+                           <p>Gracias a la acción de la semilla de linaza la loción acondicionadora para blower da al cabello un efecto seda
+                              alisante y desenredarte, así como volumen y brillo a los cabellos secos y maltratados.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide7">
+                           <img src="img/piel/cera-capilar.png" alt="simple" />
+                           <h1>CERA CAPILAR<br /><span></span></h1>
+                           <p>Utilizar después del baño, dejar actuar de 3 a 4 minutos y dejar listo para el cepillado.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide8">
+                           <img src="img/piel/shampo-capilar-wayu.png" alt="simple" />
+                           <h1>SHAMPOO CAMILAR<br /><span>wayúu</span></h1>
+                           <p>Shampoo con aceite de argán y lino que contribuye al brillo y suavidad del cabello, además con aceite de jojoba,
+                              extractos de Caléndula y Ortiga brindan nutrición y fortalecimiento de la fibra capilar.</p>
+                           </div>
+
+                           <div id="slide_hide" class="slide3_hide9">
+                           <img src="img/piel/tratamiento-wayu.png" alt="simple" />
+                           <h1>TRATAMIENTO CAPILAR<br /><span>wayúu</span></h1>
+                           <p>Extractos naturales que nutren y fortalecen el cabello maltratado que ha sido sometido a procesos de decoloración,
+                              alisado o planchado.</p>
+                           </div>
+
+                       <!-- <div id="slide_hide" class="slide_hide2">
+                           <img src="img/galeria_1.png" alt="simple" />
+                           <h1>BASE en mousse<br /><span>mousse fundation 2</span></h1>
+                           <p>Maquillaje altamente especializado para todo tipo de piel, posee una revolucionaria textura en mousse extra liviana, especialmente suave al tacto que hace de la aplicación una caricia.</p>
+                        </div>-->
+
+                     </div>
+                  </div>
+                  
+                  
+
+               </div>
+               <div class="fila_2">                  
+                  <img src="img/certificado_natural_2.png" />
+                  <h1>Productos a base de <span>ingredientes naturales</span></h1>
+                  <a href="http://www.maquillajetonos.com" target="_blank">Ampliar información sobre línea</a>
+               </div>
+               <img src="img/linea_luxuri.png">
+            </div>
+            <!--FIN Modal Galería-->
+
+            <!--Modal-->  
+            <div id="linea_luxury_modal" class="open_piel">
+               <div class="fila_1">
+                  <div class="header">
+                     <nav>
+                        <ul>
+                           <li id="open_luxury_close_all">Línea <span>Luxury</span></li>
+                           <li id="open_sport_close_all">Línea <span>Sport</span></li>
+                        </ul>
+                     </nav>
+                     <h1>Línea<br /><span>Cuidado de la piel</span></h1>
+                     <div class="cerrar_galeria">
+                        <span id="btn_cerrar_2" class="cerrar">Cerrar</span>
+                        <span id="btn_galeriaopen" class="galeria">Galería<span></span></span>      
+                     </div>
+                  </div>               
+                  <p>Toda mujer desea tener el cutis y el cabello saludable, por eso hemos creado la línea de cuidado para la limpieza, hidratación y protección de la piel y el cabello, ofreciendo un cuidado delicado pero efectivo, que mantiene la suavidad y elasticidad a tu piel y cabello, haciéndote lucir radiante y hermosa.</p>
+               </div>
+               <div class="fila_2">
+                  <img src="img/certificado_natural.png" />
+                  <h1>Productos a base de <span>ingredientes naturales</span></h1>
+                  <a href="http://www.maquillajetonos.com" target="_blank">Ampliar información sobre línea</a>
+               </div>
+               <img src="img/linea_luxuri.png">
+            </div> 
+            <!--Fin del modal-->
+
+
+            <section class="header">
+               <div class="columna1">
+                  <img src="img/logo_productos.png" /> 
+               </div>
+               <div class="columna2">
+                  <a href="http://www.maquillajetonos.com" target="_blank">www.maquillajetonos.com</a>
+                  <h1>Líneas de <span>Productos</span></h1>
+                  <div class="menu menu_productos">
+                     <span>Menú<i class="fa fa-angle-down"></i></span>
+                     <ul>
+                        <!--<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>-->
+                        <li data-menuanchor="secondPage"><a href="#secondPage">Quíenes somos</a></li>
+                        <li data-menuanchor="3rdPage"><a href="#3rdPage">Historia</a></li>
+                        <!--<li data-menuanchor="4thpage"><a href="#4thpage">Productos</a></li>-->
+                        <li data-menuanchor="5thpage"><a href="#5thpage">Donde estamos</a></li>
+                        <li data-menuanchor="6thpage"><a href="#6thpage">Certificaciones</a></li>
+                        <li data-menuanchor="lastPage"><a href="#lastPage">Contacto</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+            <section id="lineas">               
+               <div class="col">
+                  <div id="black_bg">
+                  </div>
+                     <div>                     
+                        <div id="btn_luxury" class="btn_inicio">
+                           <div class="icon">
+                              <span id="horizontal"></span>
+                              <span id="vertical"></span>
+                           </div>
+                           <h1>Línea<br /><span>Luxury</span></h1>
+                        </div>                     
+                        <img src="img/lux.jpg" class="grayscale" />
+                     </div>             
+               </div>
+               <div class="col">
+                  <div id="black_bg">
+                  </div>
+                  <div>
+                     <div id="btn_sport" class="btn_inicio">
+                        <div class="icon">
+                           <span id="horizontal"></span>
+                           <span id="vertical"></span>
+                        </div>
+                        <h1>Línea<br /><span>Sport</span></h1>
+                     </div>                  
+                     <img src="img/espor.jpg" class="grayscale"/>
+                  </div>               
+               </div>
+               <div class="col">
+                  <div id="black_bg">
+                  </div>
+                  <div>
+                     <div id="btn_piel" class="btn_inicio">
+                        <div class="icon">
+                           <span id="horizontal"></span>
+                           <span id="vertical"></span>
+                        </div>
+                        <h1 class="untop">Línea<br /><span>Cuidado<br /> de la piel</span></h1>
+                     </div>                 
+                     <img src="img/piel.jpg" class="grayscale"/>
+                  </div>                 
+               </div>
+            </section>
+         
+         </section>
+      </div>
+      <div class="section " id="section4">
+         <section id="donde_estamos">
+            <section class="header">
+               <div class="menu">
+                     <span>Menú<i class="fa fa-angle-down"></i></span>
+                     <ul>
+                        <!--<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>-->
+                        <li data-menuanchor="secondPage"><a href="#secondPage">Quíenes somos</a></li>
+                        <li data-menuanchor="3rdPage"><a href="#3rdPage">Historia</a></li>
+                        <li data-menuanchor="4thpage"><a href="#4thpage">Productos</a></li>
+                        <!--<li data-menuanchor="5thpage"><a href="#5thpage">Donde estamos</a></li>-->
+                        <li data-menuanchor="6thpage"><a href="#6thpage">Certificaciones</a></li>
+                        <li data-menuanchor="lastPage"><a href="#lastPage">Contacto</a></li>
+                     </ul>
+                  </div> 
+               <div class="columna1">
+                  <img src="img/logo_donde_estamos.png" /> 
+               </div>
+               <div class="columna2">
+
+                  <a href="http://www.maquillajetonos.com" target="_blank">www.maquillajetonos.com</a>
+                  <h1>Donde <span>Estamos</span></h1>
+               </div>
+            </section>
+            <section class="mapa">
+               <div id="menu_direcciones">
+                  <div id="menu_direcciones_int">
+                     <ul>
+                        <li>Dirección 1</li>
+                        <li>Dirección 2</li>
+                        <li>Dirección 3</li>
+                        <li>Dirección 4</li>
+                     </ul>
+
+                  </div>
+               </div>
+               <div id="content_h2">
+                     <h2>En Colombia</h2>
+               </div>
+            </section>
+         </section>
+      </div>
+      <div class="section " id="section5">
+         <section id="certificaciones">
+            <div class="menu">
+                  <span>Menú<i class="fa fa-angle-down"></i></span>
+                  <ul>
+                     <!--<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>-->
+                     <li data-menuanchor="secondPage"><a href="#secondPage">Quíenes somos</a></li>
+                     <li data-menuanchor="3rdPage"><a href="#3rdPage">Historia</a></li>
+                     <li data-menuanchor="4thpage"><a href="#4thpage">Productos</a></li>
+                     <li data-menuanchor="5thpage"><a href="#5thpage">Donde estamos</a></li>
+                     <!--<li data-menuanchor="6thpage"><a href="#6thpage">Certificaciones</a></li>-->
+                     <li data-menuanchor="lastPage"><a href="#lastPage">Contacto</a></li>
+                  </ul>
+               </div>
+            <div class="image_certifica">
+               <img src="img/ingredientes_naturales.jpg">
+            </div> 
+            <div class="title">               
+               <a href="http://www.maquillajetonos.com" target="_blank">www.maquillajetonos.com</a>
+               <h1>Certificaciones <span>de Productos</span></h1>
+               <img width="110" src="img/certificado_resposabilidad_social.png">
+               <img width="283" style="margin: 9px 0 0 23px" src="img/logo-invima.jpg">
+               <img width="360" style="margin: 10px 0 0 -15px" src="img/FDA.jpg">
+            </div>
+         </section>
+      </div>
+      <div class="section " id="section6">
+         <section id="contacto">
+            <div class="contenido">
+               <div class="title_dir">
+                  <div class="menu">
+                  <span>Menú<i class="fa fa-angle-down"></i></span>
+                  <ul>
+                     <!--<li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>-->
+                     <li data-menuanchor="secondPage"><a href="#secondPage">Quíenes somos</a></li>
+                     <li data-menuanchor="3rdPage"><a href="#3rdPage">Historia</a></li>
+                     <li data-menuanchor="4thpage"><a href="#4thpage">Productos</a></li>
+                     <li data-menuanchor="5thpage"><a href="#5thpage">Donde estamos</a></li>
+                     <li data-menuanchor="6thpage"><a href="#6thpage">Certificaciones</a></li>
+                     <!--<li data-menuanchor="lastPage"><a href="#lastPage">Contacto</a></li>-->
+                  </ul>
+               </div>
+                  <img src="img/logo_contacto.png" />
+                  <span class="direccion">
+                     <h3>Dirección:</h3>
+                     <p>
+                        Dg 74 B #32 EE 127,
+                        <br />Barrio Belén Medellin-Colombia 
+                     </p>
+                  </span>
+                  <span class="email">
+                     <h3>E-mail:</h3>
+                     <p>
+                        <a href="mailto:info@maquillajetonos.com">info@maquillajetonos.com</a>
+                     </p>
+                  </span>
+                  <span class="telefono">
+                     <h3>Teléfono:</h3>
+                     <p>
+                        (57) (4) 448 58 83
+                     </p>
+                  </span>
+                  <span class="horario">
+                     <h3>Horario</h3>
+                     <p>
+                        De Lunes a Viernes de<br />
+                        8:00 am a 5:30 pm 
+                     </p>
+                     <p style="margin-top: 30px">Sábados de 8:00am a 2:00pm. </p>
+                  </span>
+               </div>               
+            </div>
+            <div id="social_media">
+               <div class="follow">
+                  <h3>Síguenos en las redes sociales</h3>
+                  <ul class="follow_icons">
+                     <li>
+                        <a href="https://www.facebook.com/MaquillajeTonos" target="_blank">
+                           <i class="fa fa-facebook"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.youtube.com/channel/UCOQOgA9fqaoxexSDma6JP2g" target="_blank">
+                           <i class="fa fa-youtube-play"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://twitter.com/tonosmakeup" target="_blank">
+                           <i class="fa fa-twitter"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://www.pinterest.com/tonosmakeup/" target="_blank">
+                           <i class="fa fa-pinterest-square"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="http://instagram.com/maquillajetonos" target="_blank">
+                           <i class="fa fa-instagram"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://plus.google.com/u/0/112453948269582635651/posts" target="_blank">                     
+                           <i class="fa fa-google-plus"></i>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="link">
+                  <a href="http://www.maquillajetonos.com" target="_blank">www.maquillajetonos.com</a>
+               </div>
+               <div class="btn_top">
+                  <div class="btn_int">
+                     <a href="#firstPage">
+                        <div class="btn_inicio">
+                            <i class="fa fa-angle-up"></i>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+         </section>
+      </div>
+      </div>
+      </section>  
+   </body>
+
+</html>
